@@ -1,0 +1,21 @@
+﻿id,fase,actividad,responsable,inicio,fin,tipo
+1,Fase 1 - Inicio y planificación,Desarrollo de la Estructura Inicial del Proyecto Semestral (1.ª entrega),Todos,2026-08-12,2026-08-12,hito
+2,Fase 1 - Inicio y planificación,Revisión de la estructura inicial y ajuste del alcance y objetivos,Elia,2026-08-31,2026-09-13,actividad
+3,Fase 1 - Inicio y planificación,Gestión de autorización institucional (equipos de baja y laboratorio),Elia,2026-09-14,2026-10-04,actividad
+4,Fase 2 - Análisis e investigación,"Investigación técnica: BIOS/UEFI, Secure Boot y herramientas",Gabriel,2026-09-14,2026-10-04,actividad
+5,Fase 2 - Análisis e investigación,Diagnóstico del firmware actual de los laboratorios (estado “antes”),Gabriel,2026-09-28,2026-10-18,actividad
+6,Fase 2 - Análisis e investigación,"Documento mejorado, Gantt y presentación (2.ª entrega)",Todos,2026-10-05,2026-10-07,hito
+7,Fase 3 - Diseño,"Preparación del entorno de pruebas (Ubuntu, QEMU/OVMF, VMware)",Gabriel,2026-10-05,2026-10-18,actividad
+8,Fase 3 - Diseño,Diseño del esquema de parámetros base (perfil BIOS/UEFI),Gabriel/Elia,2026-10-12,2026-10-25,actividad
+9,Fase 3 - Diseño,Diseño de la lógica del guion y del rollback,Gabriel,2026-10-19,2026-10-25,actividad
+10,Fase 4 - Desarrollo,Desarrollo del guion de despliegue automatizado,Gabriel,2026-10-26,2026-11-22,actividad
+11,Fase 4 - Desarrollo,Desarrollo del mecanismo de respaldo y rollback,Gabriel/Manuel,2026-11-09,2026-11-29,actividad
+12,Fase 4 - Desarrollo,Personalización opcional con EDK2 (logo institucional),Gabriel,2026-11-16,2026-11-29,actividad
+13,Fase 5 - Pruebas y validación,Pruebas en QEMU/OVMF y VMware,Gabriel/Manuel,2026-11-09,2026-11-29,actividad
+14,Fase 5 - Pruebas y validación,Pruebas en equipos reales dados de baja,Gabriel,2026-11-23,2026-12-06,actividad
+15,Fase 5 - Pruebas y validación,Medición de tiempo y tasa de éxito vs. proceso manual,Manuel,2026-11-30,2026-12-06,actividad
+16,Fase 6 - Cierre y defensa,"Manual técnico, informe final y checklist de calidad",Manuel,2026-11-30,2026-12-11,actividad
+17,Fase 6 - Cierre y defensa,Capacitación al personal y entrega del guion,Elia/Gabriel,2026-12-07,2026-12-13,actividad
+18,Fase 6 - Cierre y defensa,Preparación y ensayo de la defensa,Todos,2026-12-07,2026-12-15,actividad
+19,Fase 6 - Cierre y defensa,Defensa final del proyecto (última clase),Todos,2026-12-16,2026-12-16,hito
+20,Transversal,Reuniones semanales de seguimiento (Scrum),Elia,2026-08-31,2026-12-16,continua
