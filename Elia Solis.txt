@@ -1,0 +1,4 @@
+Nombre: Elia 
+Apellido: Solis Escobar
+Grupo: BIOS/UEFI 
+Rol o responsabilidad principal:Scrum Master
