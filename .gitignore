@@ -1,0 +1,14 @@
+# Archivos temporales y registros
+*.tmp
+*.bak
+*.log
+
+# Resultados generados
+build/
+dist/
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
