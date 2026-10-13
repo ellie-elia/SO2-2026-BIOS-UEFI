@@ -1,0 +1,4 @@
+Nombre:Juan Manuel 
+Apellido:Chacon Villarroel
+Grupo: BIOS/UEFI
+Rol o responsabilidad principal: Documentacion y control de calidad
