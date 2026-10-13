@@ -1,4 +1,0 @@
-Nombre: Gabriel Ruben 
-Apellido: Oconor Aruquipa
-Grupo: BIOS/UEFI
-Rol o responsabilidad principal: Desarrollador Tecnico 
