@@ -1,0 +1,13 @@
+# Requisitos técnicos pendientes de confirmar
+
+Este registro distingue lo que está definido en la propuesta de lo que el repositorio todavía no demuestra. La auditoría y las Issues consultadas al 21 de octubre de 2026 no contienen evidencia de que los puntos siguientes estén resueltos. Las referencias a actividades son las del [Gantt](../../gestion/gantt/cronograma.csv).
+
+| Aspecto pendiente | Qué no se conoce o no se ha validado | Seguimiento previsto |
+|-------------------|---------------------------------------|---------------------|
+| Marca, modelo y versión de firmware de los equipos | El repositorio todavía no contiene el inventario ni el diagnóstico del firmware de los equipos del laboratorio. Sin esos datos no se puede confirmar qué utilidad del fabricante corresponde a cada equipo. | Issue [#6: diagnóstico del firmware](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/6), actividad 5. El acceso físico depende del resultado de la autorización (Issue [#5](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/5), actividad 3). |
+| Comportamiento de CCTK/BCU en equipos reales | No hay resultados registrados de ejecución de Dell Command \\| Configure (CCTK) o HP BCU en los equipos reales del laboratorio. La prueba virtual planificada no demuestra por sí sola compatibilidad con hardware físico ni con una herramienta de fabricante concreta. | Issue [#11: pruebas virtuales](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/11), actividad 13, para validar el flujo virtual aplicable. La compatibilidad real se confirmará en Issue [#12](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/12), actividad 14, solo si hay autorización y equipos de baja disponibles. |
+| Modificabilidad de cada parámetro desde línea de comandos | El perfil contiene parámetros propuestos, pero el repositorio no confirma que todos puedan modificarse y leerse por línea de comandos en los modelos reales. | Issue [#7: perfil base](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/7), actividad 8, para registrar método de configuración y verificación por parámetro. Issue [#8](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/8), actividad 9, para reflejarlo en la lógica del guion; validar en Issues #11/#12 y actividades 13/14 según el entorno. |
+
+## Alcance de las validaciones
+
+Las pruebas en QEMU/OVMF y VMware previstas en la actividad 13 permiten comprobar el flujo virtual del MVP conforme a lo que el entorno soporte. No se registrarán como evidencia de compatibilidad con equipos físicos. Las pruebas de fabricante en hardware requieren completar primero el diagnóstico, confirmar autorización y dejar evidencia de los modelos, parámetros, comandos y resultados efectivamente observados.
