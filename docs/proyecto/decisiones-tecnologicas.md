@@ -8,7 +8,7 @@ Este documento resume las razones que aparecen en la sección 4 del [documento d
 | QEMU con OVMF | VMware Workstation | Se plantean como herramientas complementarias: QEMU/OVMF ofrece control por línea de comandos para automatizar; VMware ofrece una interfaz gráfica útil para configurar rápidamente el tipo de firmware y hacer demostraciones visuales. |
 | VMware Workstation | Hyper-V | La fuente justifica VMware por su interfaz gráfica para configurar y demostrar BIOS/UEFI. No evalúa Hyper-V, así que el repositorio no aporta una razón comparativa para preferir VMware frente a Hyper-V. |
 | Ubuntu | Otras distribuciones | La sección 4 elige Ubuntu porque permite instalar QEMU/OVMF desde sus repositorios centrales sin compilación manual ni ajustes técnicos intrincados. No contiene una comparación con distribuciones concretas. |
-| Herramientas del fabricante, como Dell Command \\| Configure (CCTK) y HP BCU | Configuración manual desde la interfaz BIOS/UEFI | El documento plantea las utilidades del fabricante como el medio para aplicar configuraciones reales desde terminal y evitar entrar manualmente a la interfaz de firmware de cada equipo. La herramienta concreta depende del fabricante y modelo, todavía por identificar mediante el diagnóstico (Issue #6). |
+| Herramientas del fabricante, como Dell Command &#124; Configure (CCTK) y HP BCU | Configuración manual desde la interfaz BIOS/UEFI | El documento plantea las utilidades del fabricante como el medio para aplicar configuraciones reales desde terminal y evitar entrar manualmente a la interfaz de firmware de cada equipo. La herramienta concreta depende del fabricante y modelo, todavía por identificar mediante el diagnóstico (Issue #6). |
 
 ## Límite de la justificación disponible
 
