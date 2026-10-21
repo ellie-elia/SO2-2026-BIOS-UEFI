@@ -27,4 +27,4 @@ Las relaciones siguientes hacen explícito el orden de entradas y resultados nec
 
 ## Condiciones para las pruebas físicas
 
-Las actividades 12 y 13 del Gantt no sustituyen la autorización institucional (actividad 3). Si no se confirma el acceso a equipos reales, el repositorio debe registrar esa situación y aplicar la alternativa virtual prevista en los riesgos del proyecto, sin presentar pruebas físicas como realizadas.
+La actividad 13 del Gantt corresponde a pruebas virtuales; no sustituye la autorización institucional (actividad 3) ni las pruebas físicas de la actividad 14. Si no se confirma el acceso a equipos reales, el repositorio debe registrar esa situación y aplicar la alternativa virtual prevista en los riesgos del proyecto, sin presentar pruebas físicas como realizadas.
