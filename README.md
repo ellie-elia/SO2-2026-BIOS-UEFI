@@ -39,11 +39,11 @@ Consulta el [detalle del alcance](docs/proyecto/alcance.md). El rollback no form
 
 Ubuntu; QEMU con OVMF; VMware Workstation; herramientas de configuración de fabricantes como Dell Command | Configure (CCTK) y HP BIOS Configuration Utility (BCU); Git. EDK2 figura como componente opcional.
 
-## Estado del proyecto al 13 de octubre de 2026
+## Estado del proyecto al 21 de octubre de 2026
 
-El estado más reciente registrado aquí antes de esta actualización era el del informe de la segunda entrega, fechado el 7 de octubre de 2026. Ese informe indicaba que seguían en curso la autorización institucional, el diagnóstico de los laboratorios y la preparación del entorno virtual.
+El informe de la segunda entrega, fechado el 7 de octubre de 2026, indicaba que seguían en curso la autorización institucional, el diagnóstico de los laboratorios y la preparación del entorno virtual. Las Issues #4–#7 recibieron comentarios de actualización el 21 de octubre, sin que el repositorio confirme los resultados de esas actividades.
 
-A fecha de esta actualización, las Issues [#2](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/2), [#3](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/3) y [#4](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/4) continúan abiertas para coordinar el estado y acuerdos, revisar la consistencia documental y confirmar el entorno técnico de pruebas. El repositorio no contiene una actualización posterior que confirme el resultado de la autorización, el diagnóstico o la disponibilidad final del entorno; esos estados deben confirmarse con el equipo.
+Al 21 de octubre, las Issues [#2](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/2), [#3](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/3) y [#4](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/4) continúan abiertas para coordinar el estado y acuerdos, revisar la consistencia documental y confirmar el entorno técnico de pruebas. El repositorio no contiene una actualización posterior que confirme el resultado de la autorización, el diagnóstico o la disponibilidad final del entorno; esos estados deben confirmarse con el equipo.
 
 Los riesgos identificados y las mitigaciones previstas están en [riesgos y acuerdos](gestion/riesgos-y-acuerdos.md).
 
@@ -62,5 +62,9 @@ Los riesgos identificados y las mitigaciones previstas están en [riesgos y acue
 - [Riesgos y acuerdos](gestion/riesgos-y-acuerdos.md)
 - [Presentación del semestre](presentaciones/semestre/presentacion-bios-uefi-2026-10-07.pptx)
 - [Cronograma Gantt transcrito](gestion/gantt/cronograma.csv)
+- [Decisiones tecnológicas](docs/proyecto/decisiones-tecnologicas.md)
+- [Dependencias del Gantt](gestion/gantt/dependencias-gantt.md)
+- [Requisitos pendientes](docs/proyecto/requisitos-pendientes.md)
+- [Auditoría de madurez](docs/proyecto/auditoria-madurez.md)
 - [Equipo](gestion/equipo.md)
 - [Contribuir](CONTRIBUTING.md)
