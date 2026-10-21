@@ -1,6 +1,7 @@
 # Auditoría de madurez del proyecto
 
-**Fecha de evaluación:** 13 de octubre de 2026  
+**Fecha de evaluación original:** 13 de octubre de 2026  
+**Actualización de las preguntas 28, 38 y 47:** 21 de octubre de 2026  
 **Fuente de evaluación:** información disponible en este repositorio, incluida la documentación, el Gantt y las Issues abiertas.
 
 ## Criterio de evaluación
@@ -133,7 +134,8 @@ Las metas de éxito documentadas son criterios de evaluación, no resultados med
 
 ### 28. ¿Las principales decisiones tecnológicas tienen una justificación relacionada con las necesidades del proyecto?
 
-**Estado: PENDIENTE.** Se enumeran herramientas previstas, pero no se documenta la justificación comparativa para seleccionarlas. [README: Herramientas previstas](../../README.md#herramientas-previstas)
+**Estado: PARCIAL.** La sección 4 del documento del proyecto justifica QEMU/OVMF por su control desde línea de comandos, VMware por su interfaz gráfica, Ubuntu por el acceso a QEMU/OVMF desde sus repositorios y las herramientas de fabricante para aplicar ajustes desde terminal. La comparación directa con VirtualBox, Hyper-V y otras distribuciones no aparece en la fuente, así que no se afirma una ventaja comparativa no documentada. [Justificación de decisiones tecnológicas](decisiones-tecnologicas.md), [documento del proyecto](documento-proyecto-bios-uefi.pdf)
+
 
 ### 29. ¿Han identificado las dependencias externas necesarias para construir y ejecutar el sistema?
 
@@ -177,7 +179,8 @@ Las metas de éxito documentadas son criterios de evaluación, no resultados med
 
 ### 38. ¿Las dependencias entre tareas están identificadas?
 
-**Estado: PENDIENTE.** El cronograma ordena actividades por fechas, pero no declara relaciones o bloqueos entre tareas. [Gantt](../../gestion/gantt/cronograma.csv)
+**Estado: CUMPLIDO.** El Gantt ya tiene un registro explícito de las dependencias operativas entre sus 20 actividades, basado en las entradas y resultados descritos en el cronograma y el proyecto. Las dependencias no sustituyen las fechas ni significan que las actividades estén completadas. [Dependencias entre actividades del Gantt](../../gestion/gantt/dependencias-gantt.md), [cronograma](../../gestion/gantt/cronograma.csv)
+
 
 ### 39. ¿El Gantt contempla desarrollo, integración, pruebas, correcciones y documentación?
 
@@ -217,7 +220,8 @@ Las metas de éxito documentadas son criterios de evaluación, no resultados med
 
 ### 47. ¿Existe algún requisito importante que todavía no comprendan suficientemente?
 
-**Estado: PENDIENTE.** El repositorio no contiene una lista de requisitos incomprendidos ni una validación de necesidades con usuarios; no permite confirmar qué requisitos entienden suficientemente. [README](../../README.md), [equipo](../../gestion/equipo.md)
+**Estado: CUMPLIDO.** El repositorio registra tres incertidumbres técnicas: modelos de equipos no inventariados; comportamiento de herramientas del fabricante aún no probado en hardware real; y posibilidad de modificar por línea de comandos todos los parámetros del perfil en esos modelos. El registro enlaza cada punto con las Issues y actividades previstas. Identificarlos no significa que ya estén resueltos. [Requisitos técnicos pendientes](requisitos-pendientes.md), Issues [#5](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/5), [#6](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/6), [#7](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/7), [#8](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/8), [#11](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/11), [#12](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/12)
+
 
 ### 48. ¿Existe alguna dependencia técnica, información, permiso, acceso, herramienta o recurso que todavía no tengan y que sea necesario para comenzar?
 
@@ -258,7 +262,7 @@ Las acciones marcadas **IMPLEMENTADA** describen cambios de documentación o seg
 | **PENDIENTE:** disponibilidad y compatibilidad del entorno/herramientas no están verificadas. | Registrar el entorno real de pruebas, identificar los equipos y validar las herramientas previstas antes de depender de ellas. | Gabriel Ruben Oconor Aruquipa | [Issues #4](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/4) y [#11](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/11) |
 | **PENDIENTE:** faltan implementación y resultados de pruebas. | Implementar despliegue y rollback; ejecutar pruebas virtuales y, si hay autorización y equipos dados de baja disponibles, pruebas físicas; conservar logs y evidencias. | Gabriel Ruben Oconor Aruquipa; Juan Manuel Chacon Villarroel | [Issues #9](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/9)–[#12](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/12) |
 | **PENDIENTE:** metas de éxito todavía no tienen mediciones. | Medir tasa de éxito y tiempo frente al proceso manual en al menos tres ejecuciones y reportar los resultados observados. | Juan Manuel Chacon Villarroel | [Issue #13](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/13), [criterios de éxito](criterios-exito.md) |
-| **PENDIENTE:** usuarios, requisitos detallados, dependencias y criterios de calidad requieren más evidencia. | Documentar necesidades y requisitos confirmados, fuentes de datos, restricciones de acceso y criterios por función; enlazar cada decisión con evidencia. | Elia Solis Escobar; Gabriel Ruben Oconor Aruquipa; Juan Manuel Chacon Villarroel | [README](../../README.md), [equipo](../../gestion/equipo.md), [Issue #2](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/2) |
-| **PENDIENTE:** el plan no explicita dependencias, estimaciones de esfuerzo, integración ni correcciones. | Revisar el Gantt y añadir dependencias y tareas de integración/corrección con responsables individuales y fechas acordadas. | Juan Manuel Chacon Villarroel; Elia Solis Escobar | [Gantt](../../gestion/gantt/cronograma.csv), [Issue #3](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/3) |
+| **PENDIENTE:** usuarios y necesidades aún no están validados; las incertidumbres técnicas están registradas, pero su resolución sigue pendiente. | Documentar necesidades y requisitos confirmados, fuentes de datos y restricciones; resolver los puntos registrados y enlazar la evidencia. | Elia Solis Escobar; Gabriel Ruben Oconor Aruquipa; Juan Manuel Chacon Villarroel | [requisitos pendientes](requisitos-pendientes.md), [Issue #2](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/2) |
+| **PARCIAL:** las dependencias entre actividades ya están registradas; faltan estimaciones de esfuerzo y tareas explícitas de integración y corrección. | Revisar el Gantt para acordar estimaciones y tareas de integración/corrección con responsables y fechas. | Juan Manuel Chacon Villarroel; Elia Solis Escobar | [dependencias del Gantt](../../gestion/gantt/dependencias-gantt.md), [Gantt](../../gestion/gantt/cronograma.csv), [Issue #3](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/3) |
 | **PENDIENTE:** falta un procedimiento de colaboración detallado. | Documentar el flujo de ramas, revisión e integración en CONTRIBUTING.md. | Juan Manuel Chacon Villarroel | [CONTRIBUTING.md](../../CONTRIBUTING.md), [Issue #3](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/3) |
 | **PENDIENTE:** faltan entregables finales y ensayo de defensa. | Preparar manual, informe, checklist y ensayo usando únicamente resultados y evidencias confirmados. | Juan Manuel Chacon Villarroel; Elia Solis Escobar; Gabriel Ruben Oconor Aruquipa | [Issues #14](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/14) y [#15](https://github.com/ellie-elia/SO2-2026-BIOS-UEFI/issues/15) |
